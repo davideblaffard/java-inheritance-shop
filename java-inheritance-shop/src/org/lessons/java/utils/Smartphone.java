@@ -10,4 +10,20 @@ public class Smartphone extends Prodotto{
         this.memoria = memoria;
     }
 
+    public String getImei(){
+        return imei;
+    }
+
+    public void setImei(String imei){
+        this.imei = imei;
+    }
+
+    public int getMemoria(){
+        return memoria;
+    }
+
+    public void setMemoria(int memoria){
+        this.memoria = memoria;
+    }
+
 }
