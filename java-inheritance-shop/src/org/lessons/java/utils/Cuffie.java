@@ -2,9 +2,9 @@ package org.lessons.java.utils;
 
 public class Cuffie extends Prodotto{
     private String colore;
-    private String connettivita;
+    private boolean connettivita;
 
-    public Cuffie(String nome, String descrizione, double prezzo, double iva, String colore, String connettivita){
+    public Cuffie(String nome, String descrizione, double prezzo, double iva, String colore, boolean connettivita){
         super(nome, descrizione, prezzo, iva);
         this.colore = colore;
         this.connettivita = connettivita;
@@ -18,11 +18,11 @@ public class Cuffie extends Prodotto{
         this.colore = colore;
     }
 
-    public String getConnettivita(){
+    public boolean getConnettivita(){
         return connettivita;
     }
 
-    public void setConnettivita(String connettivita){
+    public void setConnettivita(boolean  connettivita){
         this.connettivita = connettivita;
     }
 }
